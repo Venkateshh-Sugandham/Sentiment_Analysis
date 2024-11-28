@@ -1,0 +1,4 @@
+crewai
+nltk
+streamlit
+load-dotenv
