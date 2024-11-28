@@ -5,17 +5,6 @@ from nltk.tokenize import word_tokenize
 import nltk
 import re
 import os
-import ctypes
-# import sqlite3
-
-# Define the path to the sqlite3.dll file (or the appropriate binary for your platform)
-sqlite3_path = os.path.join(os.getcwd(), 'sqlite3.dll')  # Adjust the path if necessary
-
-# Check if the sqlite3.dll exists in the directory and load it dynamically
-if os.path.exists(sqlite3_path):
-    ctypes.CDLL(sqlite3_path)  # Load the custom SQLite library
-
-# st.write(f"SQLite version: {sqlite3.sqlite_version}")
 
 # Load environment variables
 load_dotenv()
